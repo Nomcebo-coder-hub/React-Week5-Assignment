@@ -17,10 +17,7 @@ export default function App() {
             open-sourced on GitHub
           </a>{" "}
           and{" "}
-          <a
-            href="https://suspicious-beaver-111c4d.netlify.com/"
-            target="_blank"
-          >
+          <a href="https://dancing-elf-1419e8.netlify.app/" target="_blank">
             hosted on Netlify
           </a>
         </footer>
