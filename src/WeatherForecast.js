@@ -6,9 +6,12 @@ export default function WeatherForecast() {
     <div className="WeatherForecast">
       <div className="row">
         <div className="col">
-          <div>Thur</div>
+          <div className="WeatherForecast-day">Thur</div>
           <WeatherIcon code="01d" />
-          19 10
+          <div className="WeatherForecast-temperatures">
+            <span className="WeatherForecast-temperature-max">19</span>
+            <span className="WeatherForecast-temperature-min">10</span>
+          </div>
         </div>
       </div>
     </div>
