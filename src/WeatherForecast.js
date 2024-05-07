@@ -3,6 +3,12 @@ import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecast.css";
 
 export default function WeatherForecast() {
+  let apiKey = "5f472b7acba333cd8a035ea85a0d4d4c";
+  let longitude = 40.7;
+  let latitude = 74;
+  let apiUrl = `https://api.openweathermap.org/data/2.5/onecall?lat=${latitude}&lon=${longitude}&appid=${apiKey}`;
+
+  axios.get(apiUrl).then(handleResponse);
   return (
     <div className="WeatherForecast">
       <div className="row">
