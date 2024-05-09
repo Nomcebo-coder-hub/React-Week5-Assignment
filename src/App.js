@@ -13,7 +13,7 @@ export default function App() {
           <a
             href="https://github.com/Nomcebo-coder-hub/react-week5-assignment"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             open-sourced on GitHub
           </a>{" "}
@@ -21,7 +21,7 @@ export default function App() {
           <a
             href="https://dancing-elf-1419e8.netlify.app/"
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noreferrer"
           >
             hosted on Netlify
           </a>
